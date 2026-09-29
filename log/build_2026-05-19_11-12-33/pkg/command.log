@@ -1,0 +1,4 @@
+Invoking command in '/home/giulia0312/easywalk/build/pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+Invoking command in '/home/giulia0312/easywalk/build/pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/pkg
+Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/pkg

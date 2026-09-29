@@ -1,0 +1,122 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/giulia0312/easywalk/build/loadcells_pkg
+[  2%] Built target loadcells_pkg__rosidl_generator_type_description
+[  4%] Built target loadcells_pkg__rs
+[  4%] Built target ament_cmake_python_copy_loadcells_pkg
+[  7%] Built target loadcells_pkg__cpp
+[ 19%] Built target loadcells_pkg__rosidl_generator_c
+[ 26%] Built target loadcells_pkg__rosidl_typesupport_introspection_c
+[ 34%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c
+[ 48%] Built target loadcells_pkg__rosidl_typesupport_c
+[ 56%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp
+[ 63%] Built target loadcells_pkg__rosidl_typesupport_cpp
+[ 63%] Built target loadcells_pkg
+[ 65%] [32mBuilding CXX object CMakeFiles/loadcell_publisher_advanced.dir/src/loadcell_publisher_advanced.cpp.o[0m
+[ 70%] Built target loadcell_subscriber
+[ 73%] [32mBuilding CXX object CMakeFiles/loadcell_publisher.dir/src/loadcell_publisher.cpp.o[0m
+[ 75%] Built target loadcells_pkg__py
+[ 80%] Built target loadcells_pkg__rosidl_generator_py
+[ 85%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c
+[ 90%] Built target loadcells_pkg_s__rosidl_typesupport_c
+[ 95%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c
+running egg_info
+writing loadcells_pkg.egg-info/PKG-INFO
+writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt
+writing top-level names to loadcells_pkg.egg-info/top_level.txt
+reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_loadcells_pkg_egg
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:91:23:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   91 |     ~LoadcellPublisher[01;31m[K([m[K){
+      |                       [01;31m[K^[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:[m[K In constructor ‘[01m[KAdvancedPublisher::[01;32m[KAdvancedPublisher[m[K()[m[K’:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:15:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   15 |                 publisher_ = this->create_publisher<std_msgs::msg::[01;31m[Kfloat64[m[K("/loadcells", 10);
+      |                                                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:15:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |                 publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::float64("/loadcells", 10)[m[K;
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:15:36:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Tp = rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > >][m[K[m[K’
+  418 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:15:36:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+   15 |                 publisher_ = this->[01;36m[Kcreate_publisher<std_msgs::msg::float64("/loadcells", 10)[m[K;
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Tp = rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > >][m[K[m[K’
+  429 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:15:36:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+   15 |                 publisher_ = this->[01;36m[Kcreate_publisher<std_msgs::msg::float64("/loadcells", 10)[m[K;
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Yp>&&) [35m[K[with _Tp = rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > >][m[K[m[K’
+  446 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:15:36:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+   15 |                 publisher_ = this->[01;36m[Kcreate_publisher<std_msgs::msg::float64("/loadcells", 10)[m[K;
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; _Tp = rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > >][m[K[m[K’
+  454 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:15:36:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+   15 |                 publisher_ = this->[01;36m[Kcreate_publisher<std_msgs::msg::float64("/loadcells", 10)[m[K;
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > >][m[K[m[K’
+  414 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > > >&[m[K’
+  414 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+      |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:438:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > >][m[K[m[K’
+  438 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:438:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<loadcells_pkg::msg::LoadcellData_<std::allocator<void> > > >&&[m[K’
+  438 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher_advanced.cpp:88:24:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadcellPublisher[m[K’ has not been declared
+   88 |             std::bind(&[01;31m[KLoadcellPublisher[m[K::timerCallback, this));
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/loadcell_publisher_advanced.dir/build.make:76: CMakeFiles/loadcell_publisher_advanced.dir/src/loadcell_publisher_advanced.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:676: CMakeFiles/loadcell_publisher_advanced.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 97%] [32m[1mLinking CXX executable loadcell_publisher[0m
+[ 97%] Built target loadcell_publisher
+gmake: *** [Makefile:146: all] Error 2

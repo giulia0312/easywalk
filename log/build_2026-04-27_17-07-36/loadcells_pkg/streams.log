@@ -1,0 +1,202 @@
+[0.016s] Invoking command in '/home/giulia0312/easywalk/build/loadcells_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/giulia0312/easywalk/src/loadcells_pkg -DCMAKE_INSTALL_PREFIX=/home/giulia0312/easywalk/install/loadcells_pkg
+[0.039s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.245s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.278s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.288s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.398s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.498s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.582s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.600s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.613s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.970s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.390s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.752s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.843s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.848s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.860s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.861s] -- Configured cppcheck include dirs: 
+[1.861s] -- Configured cppcheck exclude dirs and/or files: 
+[1.862s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.862s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.862s] -- Added test 'lint_cmake' to check CMake code style
+[1.863s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.865s] -- Added test 'uncrustify' to check C / C++ code style
+[1.865s] -- Configured uncrustify additional arguments: 
+[1.866s] -- Added test 'xmllint' to check XML markup files
+[1.868s] -- Configuring done (1.8s)
+[1.929s] -- Generating done (0.0s)
+[1.948s] -- Build files have been written to: /home/giulia0312/easywalk/build/loadcells_pkg
+[1.961s] Invoked command in '/home/giulia0312/easywalk/build/loadcells_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/giulia0312/easywalk/src/loadcells_pkg -DCMAKE_INSTALL_PREFIX=/home/giulia0312/easywalk/install/loadcells_pkg
+[1.962s] Invoking command in '/home/giulia0312/easywalk/build/loadcells_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12
+[2.044s] [  2%] Built target loadcells_pkg__rosidl_generator_type_description
+[2.044s] [  5%] Built target loadcells_pkg__rs
+[2.057s] [  5%] Built target ament_cmake_python_copy_loadcells_pkg
+[2.079s] [  7%] Built target loadcells_pkg__cpp
+[2.082s] [ 20%] Built target loadcells_pkg__rosidl_generator_c
+[2.125s] [ 28%] Built target loadcells_pkg__rosidl_typesupport_c
+[2.129s] [ 35%] Built target loadcells_pkg__rosidl_typesupport_introspection_c
+[2.131s] [ 43%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp
+[2.134s] [ 51%] Built target loadcells_pkg__rosidl_typesupport_cpp
+[2.141s] [ 58%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c
+[2.142s] [ 66%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp
+[2.181s] [ 66%] Built target loadcells_pkg
+[2.181s] [ 69%] [32mBuilding CXX object CMakeFiles/loadcell_publisher.dir/src/loadcell_publisher.cpp.o[0m
+[2.185s] [ 71%] [32mBuilding CXX object CMakeFiles/loadcell_subscriber.dir/src/loadcell_subscriber.cpp.o[0m
+[2.214s] [ 74%] Built target loadcells_pkg__py
+[2.260s] [ 79%] Built target loadcells_pkg__rosidl_generator_py
+[2.294s] [ 84%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c
+[2.301s] [ 92%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c
+[2.301s] [ 94%] Built target loadcells_pkg_s__rosidl_typesupport_c
+[2.371s] running egg_info
+[2.390s] writing loadcells_pkg.egg-info/PKG-INFO
+[2.391s] writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt
+[2.391s] writing top-level names to loadcells_pkg.egg-info/top_level.txt
+[2.448s] reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[2.448s] writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[2.491s] [ 94%] Built target ament_cmake_python_build_loadcells_pkg_egg
+[7.078s] [ 97%] [32m[1mLinking CXX executable loadcell_publisher[0m
+[7.285s] [ 97%] Built target loadcell_publisher
+[10.412s] [100%] [32m[1mLinking CXX executable loadcell_subscriber[0m
+[10.719s] [100%] Built target loadcell_subscriber
+[10.734s] Invoked command in '/home/giulia0312/easywalk/build/loadcells_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12
+[10.747s] Invoking command in '/home/giulia0312/easywalk/build/loadcells_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/loadcells_pkg
+[10.761s] -- Install configuration: ""
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/rosidl_interfaces/loadcells_pkg
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/msg/LoadcellData.json
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__struct.h
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__functions.c
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__description.c
+[10.762s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.h
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__functions.h
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.c
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/loadcell_data.h
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_generator_c__visibility_control.h
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/library_path.sh
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/library_path.dsv
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_generator_c.so
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg
+[10.763s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_fastrtps_c.h
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_fastrtps_c.so
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/loadcell_data.hpp
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail
+[10.764s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.hpp
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__traits.hpp
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__struct.hpp
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__builder.hpp
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_fastrtps_cpp.hpp
+[10.765s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/dds_fastrtps
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_fastrtps_cpp.so
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_introspection_c.h
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.c
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_introspection_c.so
+[10.766s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_c.so
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.cpp
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_introspection_cpp.hpp
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_introspection_cpp.so
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_cpp.so
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/pythonpath.sh
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/pythonpath.dsv
+[10.767s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info
+[10.768s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.768s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+[10.768s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/top_level.txt
+[10.768s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.768s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg
+[10.768s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_introspection_c.so
+[10.768s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_c.c
+[10.768s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_fastrtps_c.so
+[10.768s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_c.so
+[10.768s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/__init__.py
+[10.768s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[10.769s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.769s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg
+[10.769s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg/__init__.py
+[10.769s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg/_loadcell_data.py
+[10.769s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg/_loadcell_data_s.c
+[10.821s] Listing '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg'...
+[10.821s] Compiling '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/__init__.py'...
+[10.821s] Listing '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg'...
+[10.828s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_fastrtps_c.so
+[10.828s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_introspection_c.so
+[10.828s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_c.so
+[10.828s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_generator_py.so
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/rust_packages/loadcells_pkg
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/msg.rs
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/lib.rs
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/msg
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/msg/rmw.rs
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/build.rs
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/Cargo.toml
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/msg/LoadcellData.idl
+[10.829s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/msg/LoadcellData.msg
+[10.829s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/loadcells_pkg/loadcell_publisher
+[10.830s] -- Set non-toolchain portion of runtime path of "/home/giulia0312/easywalk/install/loadcells_pkg/lib/loadcells_pkg/loadcell_publisher" to ""
+[10.831s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/loadcells_pkg/loadcell_subscriber
+[10.834s] -- Set non-toolchain portion of runtime path of "/home/giulia0312/easywalk/install/loadcells_pkg/lib/loadcells_pkg/loadcell_subscriber" to ""
+[10.835s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/package_run_dependencies/loadcells_pkg
+[10.835s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/parent_prefix_path/loadcells_pkg
+[10.835s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/ament_prefix_path.sh
+[10.836s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/ament_prefix_path.dsv
+[10.836s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/path.sh
+[10.836s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/path.dsv
+[10.836s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.bash
+[10.836s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.sh
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.zsh
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.dsv
+[10.837s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/package.dsv
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/packages/loadcells_pkg
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_cExport.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_cExport-noconfig.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_cppExport.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cExport.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cExport.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[10.837s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cppExport.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_pyExport.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_pyExport-noconfig.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/rosidl_cmake-extras.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkgConfig.cmake
+[10.838s] -- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkgConfig-version.cmake
+[10.838s] -- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/package.xml
+[10.840s] Invoked command in '/home/giulia0312/easywalk/build/loadcells_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/loadcells_pkg

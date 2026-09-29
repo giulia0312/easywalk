@@ -1,0 +1,2 @@
+Invoking command in '/home/giulia0312/easywalk/build/loadcells_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12
+Invoked command in '/home/giulia0312/easywalk/build/loadcells_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12

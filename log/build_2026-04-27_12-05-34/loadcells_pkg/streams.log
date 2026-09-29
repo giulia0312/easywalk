@@ -1,0 +1,44 @@
+[0.016s] Invoking command in '/home/giulia0312/easywalk/build/loadcells_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12
+[0.095s] [  2%] Built target loadcells_pkg__rosidl_generator_type_description
+[0.095s] [  5%] Built target loadcells_pkg__rs
+[0.112s] [  5%] Built target ament_cmake_python_copy_loadcells_pkg
+[0.130s] [  7%] Built target loadcells_pkg__cpp
+[0.132s] [ 20%] Built target loadcells_pkg__rosidl_generator_c
+[0.173s] [ 28%] Built target loadcells_pkg__rosidl_typesupport_c
+[0.173s] [ 35%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp
+[0.176s] [ 43%] Built target loadcells_pkg__rosidl_typesupport_introspection_c
+[0.178s] [ 51%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c
+[0.183s] [ 58%] Built target loadcells_pkg__rosidl_typesupport_cpp
+[0.184s] [ 66%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp
+[0.222s] [ 66%] Built target loadcells_pkg
+[0.225s] [ 74%] Built target loadcell_subscriber
+[0.226s] [ 71%] [32mBuilding CXX object CMakeFiles/loadcell_publisher.dir/src/loadcell_publisher.cpp.o[0m
+[0.259s] [ 76%] Built target loadcells_pkg__py
+[0.294s] [ 82%] Built target loadcells_pkg__rosidl_generator_py
+[0.321s] [ 87%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c
+[0.328s] [ 92%] Built target loadcells_pkg_s__rosidl_typesupport_c
+[0.328s] [ 97%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c
+[0.391s] running egg_info
+[0.411s] writing loadcells_pkg.egg-info/PKG-INFO
+[0.411s] writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt
+[0.411s] writing top-level names to loadcells_pkg.egg-info/top_level.txt
+[0.466s] reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[0.467s] writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[0.506s] [ 97%] Built target ament_cmake_python_build_loadcells_pkg_egg
+[2.655s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher.cpp:[m[K In constructor ‘[01m[KLoadcellPublisher::[01;32m[KLoadcellPublisher[m[K()[m[K’:
+[2.656s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher.cpp:67:108:[m[K [01;31m[Kerror: [m[K‘[01m[KRate[m[K’ has not been declared
+[2.656s]    67 |                 hx1_ = std::make_unique<HX711::SimpleHX711>(data_pin_1, clock_pin_1, ref_unit_1, offset_1, [01;31m[KRate[m[K::HZ_80);
+[2.656s]       |                                                                                                            [01;31m[K^~~~[m[K
+[2.656s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher.cpp:68:108:[m[K [01;31m[Kerror: [m[K‘[01m[KRate[m[K’ has not been declared
+[2.656s]    68 |                 hx2_ = std::make_unique<HX711::SimpleHX711>(data_pin_2, clock_pin_2, ref_unit_2, offset_2, [01;31m[KRate[m[K::HZ_80);
+[2.656s]       |                                                                                                            [01;31m[K^~~~[m[K
+[2.656s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher.cpp:69:108:[m[K [01;31m[Kerror: [m[K‘[01m[KRate[m[K’ has not been declared
+[2.656s]    69 |                 hx3_ = std::make_unique<HX711::SimpleHX711>(data_pin_3, clock_pin_3, ref_unit_3, offset_3, [01;31m[KRate[m[K::HZ_80);
+[2.656s]       |                                                                                                            [01;31m[K^~~~[m[K
+[2.656s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher.cpp:70:108:[m[K [01;31m[Kerror: [m[K‘[01m[KRate[m[K’ has not been declared
+[2.656s]    70 |                 hx4_ = std::make_unique<HX711::SimpleHX711>(data_pin_4, clock_pin_4, ref_unit_4, offset_4, [01;31m[KRate[m[K::HZ_80);
+[2.656s]       |                                                                                                            [01;31m[K^~~~[m[K
+[3.737s] gmake[2]: *** [CMakeFiles/loadcell_publisher.dir/build.make:76: CMakeFiles/loadcell_publisher.dir/src/loadcell_publisher.cpp.o] Error 1
+[3.738s] gmake[1]: *** [CMakeFiles/Makefile2:646: CMakeFiles/loadcell_publisher.dir/all] Error 2
+[3.738s] gmake: *** [Makefile:146: all] Error 2
+[3.741s] Invoked command in '/home/giulia0312/easywalk/build/loadcells_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12

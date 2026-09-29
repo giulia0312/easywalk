@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pkg__py",
+		"source" : "/home/giulia0312/easywalk/build/pkg/pkg__py"
+	}
+}

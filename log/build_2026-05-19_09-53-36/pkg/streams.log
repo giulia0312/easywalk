@@ -1,0 +1,44 @@
+[0.016s] Invoking command in '/home/giulia0312/easywalk/build/pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+[0.052s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.366s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.399s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.411s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.631s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.716s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.735s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.861s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.861s] -- Configured cppcheck include dirs: 
+[0.861s] -- Configured cppcheck exclude dirs and/or files: 
+[0.861s] -- Added test 'lint_cmake' to check CMake code style
+[0.862s] -- Added test 'uncrustify' to check C / C++ code style
+[0.862s] -- Configured uncrustify additional arguments: 
+[0.863s] -- Added test 'xmllint' to check XML markup files
+[0.864s] -- Configuring done (0.8s)
+[0.878s] -- Generating done (0.0s)
+[0.883s] -- Build files have been written to: /home/giulia0312/easywalk/build/pkg
+[0.940s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/uart.cpp.o[0m
+[6.192s] [100%] [32m[1mLinking CXX executable publisher[0m
+[6.404s] [100%] Built target publisher
+[6.420s] Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+[6.433s] Invoking command in '/home/giulia0312/easywalk/build/pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/pkg
+[6.444s] -- Install configuration: ""
+[6.444s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/ament_index/resource_index/package_run_dependencies/pkg
+[6.444s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/ament_index/resource_index/parent_prefix_path/pkg
+[6.445s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/ament_prefix_path.sh
+[6.445s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/ament_prefix_path.dsv
+[6.445s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/path.sh
+[6.445s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/path.dsv
+[6.445s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.bash
+[6.446s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.sh
+[6.446s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.zsh
+[6.447s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.dsv
+[6.447s] -- Installing: /home/giulia0312/easywalk/install/pkg/share/pkg/package.dsv
+[6.448s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/ament_index/resource_index/packages/pkg
+[6.448s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/cmake/pkgConfig.cmake
+[6.449s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/cmake/pkgConfig-version.cmake
+[6.449s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/package.xml
+[6.450s] Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/pkg

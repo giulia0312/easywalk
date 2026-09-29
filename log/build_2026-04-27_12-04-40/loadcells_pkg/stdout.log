@@ -1,0 +1,26 @@
+[  2%] Built target loadcells_pkg__rs
+[  5%] Built target loadcells_pkg__rosidl_generator_type_description
+[  5%] Built target ament_cmake_python_copy_loadcells_pkg
+[  7%] Built target loadcells_pkg__cpp
+[ 20%] Built target loadcells_pkg__rosidl_generator_c
+[ 28%] Built target loadcells_pkg__rosidl_typesupport_introspection_c
+[ 35%] Built target loadcells_pkg__rosidl_typesupport_c
+[ 43%] Built target loadcells_pkg__rosidl_typesupport_cpp
+[ 51%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp
+[ 66%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c
+[ 66%] Built target loadcells_pkg
+[ 69%] [32mBuilding CXX object CMakeFiles/loadcell_publisher.dir/src/loadcell_publisher.cpp.o[0m
+[ 74%] Built target loadcell_subscriber
+[ 76%] Built target loadcells_pkg__py
+[ 82%] Built target loadcells_pkg__rosidl_generator_py
+[ 87%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c
+[ 97%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c
+[ 97%] Built target loadcells_pkg_s__rosidl_typesupport_c
+running egg_info
+writing loadcells_pkg.egg-info/PKG-INFO
+writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt
+writing top-level names to loadcells_pkg.egg-info/top_level.txt
+reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_loadcells_pkg_egg

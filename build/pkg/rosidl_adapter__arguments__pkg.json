@@ -1,0 +1,6 @@
+{
+  "package_name": "pkg",
+  "non_idl_tuples": [
+    "/home/giulia0312/easywalk/src/pkg:msg/LoadcellData.msg"
+  ]
+}

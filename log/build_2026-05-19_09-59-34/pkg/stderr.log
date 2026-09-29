@@ -1,0 +1,8 @@
+[01m[K/home/giulia0312/easywalk/src/pkg/src/uart.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kloadcells_pkg/msg/loadcell_data.hpp: No such file or directory
+   15 | #include [01;31m[K"loadcells_pkg/msg/loadcell_data.hpp"[m[K    //custom message
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/uart.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:642: CMakeFiles/publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

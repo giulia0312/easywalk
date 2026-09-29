@@ -1,0 +1,20 @@
+[0.018s] Invoking command in '/home/giulia0312/easywalk/build/pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+[0.087s] Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+[0.107s] Invoking command in '/home/giulia0312/easywalk/build/pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/pkg
+[0.123s] -- Install configuration: ""
+[0.123s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/ament_index/resource_index/package_run_dependencies/pkg
+[0.124s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/ament_index/resource_index/parent_prefix_path/pkg
+[0.124s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/ament_prefix_path.sh
+[0.124s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/path.sh
+[0.124s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/environment/path.dsv
+[0.125s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.bash
+[0.125s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.sh
+[0.125s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.zsh
+[0.126s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/local_setup.dsv
+[0.127s] -- Installing: /home/giulia0312/easywalk/install/pkg/share/pkg/package.dsv
+[0.128s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/ament_index/resource_index/packages/pkg
+[0.128s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/cmake/pkgConfig.cmake
+[0.129s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/cmake/pkgConfig-version.cmake
+[0.129s] -- Up-to-date: /home/giulia0312/easywalk/install/pkg/share/pkg/package.xml
+[0.129s] Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/giulia0312/easywalk/build/pkg

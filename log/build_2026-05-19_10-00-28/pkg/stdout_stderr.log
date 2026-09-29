@@ -1,0 +1,27 @@
+[  2%] Built target pkg__rs
+[  5%] Built target pkg__rosidl_generator_type_description
+[  8%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/uart.cpp.o[0m
+[  8%] Built target ament_cmake_python_copy_pkg
+[ 10%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[01m[K/home/giulia0312/easywalk/src/pkg/src/uart.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kpkg/msg/loadcell_data.hpp: No such file or directory
+   15 | #include [01;31m[K"pkg/msg/loadcell_data.hpp"[m[K    //custom message
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/uart.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:642: CMakeFiles/publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing pkg.egg-info/PKG-INFO
+writing dependency_links to pkg.egg-info/dependency_links.txt
+writing top-level names to pkg.egg-info/top_level.txt
+[ 13%] Built target pkg__cpp
+reading manifest file 'pkg.egg-info/SOURCES.txt'
+writing manifest file 'pkg.egg-info/SOURCES.txt'
+[ 16%] [32mBuilding C object CMakeFiles/pkg__rosidl_generator_c.dir/rosidl_generator_c/pkg/msg/detail/loadcell_data__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/pkg__rosidl_generator_c.dir/rosidl_generator_c/pkg/msg/detail/loadcell_data__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/pkg__rosidl_generator_c.dir/rosidl_generator_c/pkg/msg/detail/loadcell_data__description.c.o[0m
+[ 21%] Built target ament_cmake_python_build_pkg_egg
+[ 24%] [32m[1mLinking C shared library libpkg__rosidl_generator_c.so[0m
+[ 24%] Built target pkg__rosidl_generator_c
+gmake: *** [Makefile:146: all] Error 2

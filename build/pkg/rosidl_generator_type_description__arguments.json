@@ -1,0 +1,11 @@
+{
+  "package_name": "pkg",
+  "output_dir": "/home/giulia0312/easywalk/build/pkg/rosidl_generator_type_description/pkg",
+  "idl_tuples": [
+    "/home/giulia0312/easywalk/build/pkg/rosidl_adapter/pkg:msg/LoadcellData.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

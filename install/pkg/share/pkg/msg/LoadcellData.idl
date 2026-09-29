@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pkg/msg/LoadcellData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module pkg {
+  module msg {
+    struct LoadcellData {
+      @verbatim (language="comment", text=
+        "contains timestamp and frame_id")
+      std_msgs::msg::Header header;
+
+      double left_outer;
+
+      double left_inner;
+
+      double right_inner;
+
+      double right_outer;
+    };
+  };
+};

@@ -1,0 +1,178 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/giulia0312/easywalk/build/loadcells_pkg
+[  2%] Built target loadcells_pkg__rosidl_generator_type_description
+[  4%] Built target loadcells_pkg__rs
+[  4%] Built target ament_cmake_python_copy_loadcells_pkg
+[  6%] Built target loadcells_pkg__cpp
+[ 18%] Built target loadcells_pkg__rosidl_generator_c
+[ 25%] Built target loadcells_pkg__rosidl_typesupport_introspection_c
+[ 32%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp
+[ 39%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c
+[ 46%] Built target loadcells_pkg__rosidl_typesupport_c
+[ 53%] Built target loadcells_pkg__rosidl_typesupport_cpp
+[ 60%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp
+[ 62%] [32mBuilding CXX object CMakeFiles/loadcell_publisher1.dir/src/loadcell_publisher1.cpp.o[0m
+[ 72%] Built target loadcell_publisher
+[ 72%] Built target loadcell_subscriber
+[ 76%] Built target loadcell_publisher_advanced
+[ 76%] Built target loadcells_pkg
+[ 79%] Built target loadcells_pkg__py
+[ 83%] Built target loadcells_pkg__rosidl_generator_py
+[ 88%] Built target loadcells_pkg_s__rosidl_typesupport_c
+[ 97%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c
+[ 97%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c
+running egg_info
+writing loadcells_pkg.egg-info/PKG-INFO
+writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt
+writing top-level names to loadcells_pkg.egg-info/top_level.txt
+reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_loadcells_pkg_egg
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:[m[K In constructor ‘[01m[KLoadcellPublisher::[01;32m[KLoadcellPublisher[m[K()[m[K’:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+   10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:6[m[K:
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+   36 |     [01;36m[KSimpleHX711[m[K(
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+   10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+      |                                                    [01;31m[K^[m[K
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+   36 |     [01;36m[KSimpleHX711[m[K(
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+   10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+      |                                                    [01;31m[K^[m[K
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+   36 |     [01;36m[KSimpleHX711[m[K(
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+   10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+      |                                                    [01;31m[K^[m[K
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+   36 |     [01;36m[KSimpleHX711[m[K(
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_pin_1[m[K’ was not declared in this scope
+   15 |             hx1_ = HX711::SimpleHX711([01;31m[Kdata_pin_1[m[K, clock_pin_1, ref_unit_1, offset_1, HX711::Rate::HZ_10);
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_pin_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kclockid_t[m[K’?
+   15 |             hx1_ = HX711::SimpleHX711(data_pin_1, [01;31m[Kclock_pin_1[m[K, ref_unit_1, offset_1, HX711::Rate::HZ_10);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+      |                                                   [32m[Kclockid_t[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kref_unit_1[m[K’ was not declared in this scope
+   15 |             hx1_ = HX711::SimpleHX711(data_pin_1, clock_pin_1, [01;31m[Kref_unit_1[m[K, offset_1, HX711::Rate::HZ_10);
+      |                                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:76:[m[K [01;31m[Kerror: [m[K‘[01m[Koffset_1[m[K’ was not declared in this scope; did you mean ‘[01m[Koffsetof[m[K’?
+   15 |             hx1_ = HX711::SimpleHX711(data_pin_1, clock_pin_1, ref_unit_1, [01;31m[Koffset_1[m[K, HX711::Rate::HZ_10);
+      |                                                                            [01;31m[K^~~~~~~~[m[K
+      |                                                                            [32m[Koffsetof[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_pin_2[m[K’ was not declared in this scope
+   16 |             hx2_ = HX711::SimpleHX711([01;31m[Kdata_pin_2[m[K, clock_pin_2, ref_unit_2, offset_2, HX711::Rate::HZ_10);
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_pin_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kclockid_t[m[K’?
+   16 |             hx2_ = HX711::SimpleHX711(data_pin_2, [01;31m[Kclock_pin_2[m[K, ref_unit_2, offset_2, HX711::Rate::HZ_10);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+      |                                                   [32m[Kclockid_t[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kref_unit_2[m[K’ was not declared in this scope
+   16 |             hx2_ = HX711::SimpleHX711(data_pin_2, clock_pin_2, [01;31m[Kref_unit_2[m[K, offset_2, HX711::Rate::HZ_10);
+      |                                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:76:[m[K [01;31m[Kerror: [m[K‘[01m[Koffset_2[m[K’ was not declared in this scope; did you mean ‘[01m[Koffsetof[m[K’?
+   16 |             hx2_ = HX711::SimpleHX711(data_pin_2, clock_pin_2, ref_unit_2, [01;31m[Koffset_2[m[K, HX711::Rate::HZ_10);
+      |                                                                            [01;31m[K^~~~~~~~[m[K
+      |                                                                            [32m[Koffsetof[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_pin_3[m[K’ was not declared in this scope
+   17 |             hx3_ = HX711::SimpleHX711([01;31m[Kdata_pin_3[m[K, clock_pin_3, ref_unit_3, offset_3, HX711::Rate::HZ_10);
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_pin_3[m[K’ was not declared in this scope; did you mean ‘[01m[Kclockid_t[m[K’?
+   17 |             hx3_ = HX711::SimpleHX711(data_pin_3, [01;31m[Kclock_pin_3[m[K, ref_unit_3, offset_3, HX711::Rate::HZ_10);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+      |                                                   [32m[Kclockid_t[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kref_unit_3[m[K’ was not declared in this scope
+   17 |             hx3_ = HX711::SimpleHX711(data_pin_3, clock_pin_3, [01;31m[Kref_unit_3[m[K, offset_3, HX711::Rate::HZ_10);
+      |                                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:76:[m[K [01;31m[Kerror: [m[K‘[01m[Koffset_3[m[K’ was not declared in this scope; did you mean ‘[01m[Koffsetof[m[K’?
+   17 |             hx3_ = HX711::SimpleHX711(data_pin_3, clock_pin_3, ref_unit_3, [01;31m[Koffset_3[m[K, HX711::Rate::HZ_10);
+      |                                                                            [01;31m[K^~~~~~~~[m[K
+      |                                                                            [32m[Koffsetof[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_pin_4[m[K’ was not declared in this scope
+   18 |             hx4_ = HX711::SimpleHX711([01;31m[Kdata_pin_4[m[K, clock_pin_4, ref_unit_4, offset_4, HX711::Rate::HZ_10);
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_pin_4[m[K’ was not declared in this scope; did you mean ‘[01m[Kclockid_t[m[K’?
+   18 |             hx4_ = HX711::SimpleHX711(data_pin_4, [01;31m[Kclock_pin_4[m[K, ref_unit_4, offset_4, HX711::Rate::HZ_10);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+      |                                                   [32m[Kclockid_t[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kref_unit_4[m[K’ was not declared in this scope
+   18 |             hx4_ = HX711::SimpleHX711(data_pin_4, clock_pin_4, [01;31m[Kref_unit_4[m[K, offset_4, HX711::Rate::HZ_10);
+      |                                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:76:[m[K [01;31m[Kerror: [m[K‘[01m[Koffset_4[m[K’ was not declared in this scope; did you mean ‘[01m[Koffsetof[m[K’?
+   18 |             hx4_ = HX711::SimpleHX711(data_pin_4, clock_pin_4, ref_unit_4, [01;31m[Koffset_4[m[K, HX711::Rate::HZ_10);
+      |                                                                            [01;31m[K^~~~~~~~[m[K
+      |                                                                            [32m[Koffsetof[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:31:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_rate_ms[m[K’ was not declared in this scope
+   31 |                         std::chrono::milliseconds([01;31m[Kpublish_rate_ms[m[K),
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:[m[K In destructor ‘[01m[Kvirtual LoadcellPublisher::[01;32m[K~LoadcellPublisher[m[K()[m[K’:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:36:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   36 |         hx1_[01;31m[K->[m[Kdisconnect();
+      |             [01;31m[K^~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:37:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   37 |         hx2_[01;31m[K->[m[Kdisconnect();
+      |             [01;31m[K^~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:38:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   38 |         hx3_[01;31m[K->[m[Kdisconnect();
+      |             [01;31m[K^~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:39:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   39 |         hx4_[01;31m[K->[m[Kdisconnect();
+      |             [01;31m[K^~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:[m[K In member function ‘[01m[Kvoid LoadcellPublisher::[01;32m[KtimerCallback[m[K()[m[K’:
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:51:41:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   51 |                         double w1 = hx1_[01;31m[K->[m[Kweight(3);    //left-outer
+      |                                         [01;31m[K^~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:52:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   52 |             double w2 = hx2_[01;31m[K->[m[Kweight(3);    //left-inner
+      |                             [01;31m[K^~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:53:41:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   53 |                         double w3 = hx3_[01;31m[K->[m[Kweight(3);    //right-inner
+      |                                         [01;31m[K^~[m[K
+[01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:54:41:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHX711::SimpleHX711[m[K’
+   54 |                         double w4 = hx4_[01;31m[K->[m[Kweight(3);    //right-outer
+      |                                         [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/loadcell_publisher1.dir/build.make:76: CMakeFiles/loadcell_publisher1.dir/src/loadcell_publisher1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:678: CMakeFiles/loadcell_publisher1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

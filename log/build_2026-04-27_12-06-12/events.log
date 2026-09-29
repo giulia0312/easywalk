@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (loadcells_pkg) JobQueued: {'identifier': 'loadcells_pkg', 'dependencies': OrderedDict()}
+[0.000323] (loadcells_pkg) JobStarted: {'identifier': 'loadcells_pkg'}
+[0.009738] (loadcells_pkg) JobProgress: {'identifier': 'loadcells_pkg', 'progress': 'cmake'}
+[0.012339] (loadcells_pkg) JobProgress: {'identifier': 'loadcells_pkg', 'progress': 'build'}
+[0.012419] (loadcells_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giulia0312/easywalk/build/loadcells_pkg', '--', '-j12', '-l12'], 'cwd': '/home/giulia0312/easywalk/build/loadcells_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'giulia0312', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/giulia0312', 'OLDPWD': '/home/giulia0312', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2624', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/giulia0312/easywalk/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'giulia0312', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'giulia0312', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lenovo-giulia:@/tmp/.ICE-unix/2579,unix/lenovo-giulia:/tmp/.ICE-unix/2579', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/361f24cf_4e5b_4e35_84f3_5b76114c7a7a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QGKWN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/giulia0312/easywalk/build/loadcells_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.089065] (loadcells_pkg) StdoutLine: {'line': b'[  2%] Built target loadcells_pkg__rosidl_generator_type_description\n'}
+[0.091393] (loadcells_pkg) StdoutLine: {'line': b'[  5%] Built target loadcells_pkg__rs\n'}
+[0.099311] (-) TimerEvent: {}
+[0.105245] (loadcells_pkg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_loadcells_pkg\n'}
+[0.125208] (loadcells_pkg) StdoutLine: {'line': b'[ 10%] Built target loadcells_pkg__cpp\n'}
+[0.125637] (loadcells_pkg) StdoutLine: {'line': b'[ 20%] Built target loadcells_pkg__rosidl_generator_c\n'}
+[0.169568] (loadcells_pkg) StdoutLine: {'line': b'[ 28%] Built target loadcells_pkg__rosidl_typesupport_cpp\n'}
+[0.170252] (loadcells_pkg) StdoutLine: {'line': b'[ 35%] Built target loadcells_pkg__rosidl_typesupport_c\n'}
+[0.173085] (loadcells_pkg) StdoutLine: {'line': b'[ 51%] Built target loadcells_pkg__rosidl_typesupport_introspection_c\n'}
+[0.173777] (loadcells_pkg) StdoutLine: {'line': b'[ 51%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c\n'}
+[0.174410] (loadcells_pkg) StdoutLine: {'line': b'[ 58%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.177603] (loadcells_pkg) StdoutLine: {'line': b'[ 66%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp\n'}
+[0.199470] (-) TimerEvent: {}
+[0.212976] (loadcells_pkg) StdoutLine: {'line': b'[ 66%] Built target loadcells_pkg\n'}
+[0.215734] (loadcells_pkg) StdoutLine: {'line': b'[ 71%] Built target loadcell_subscriber\n'}
+[0.218698] (loadcells_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/loadcell_publisher.dir/src/loadcell_publisher.cpp.o\x1b[0m\n'}
+[0.244891] (loadcells_pkg) StdoutLine: {'line': b'[ 76%] Built target loadcells_pkg__py\n'}
+[0.280598] (loadcells_pkg) StdoutLine: {'line': b'[ 82%] Built target loadcells_pkg__rosidl_generator_py\n'}
+[0.299601] (-) TimerEvent: {}
+[0.307362] (loadcells_pkg) StdoutLine: {'line': b'[ 87%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c\n'}
+[0.312511] (loadcells_pkg) StdoutLine: {'line': b'[ 92%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c\n'}
+[0.314587] (loadcells_pkg) StdoutLine: {'line': b'[ 97%] Built target loadcells_pkg_s__rosidl_typesupport_c\n'}
+[0.385221] (loadcells_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.399841] (-) TimerEvent: {}
+[0.404625] (loadcells_pkg) StdoutLine: {'line': b'writing loadcells_pkg.egg-info/PKG-INFO\n'}
+[0.405110] (loadcells_pkg) StdoutLine: {'line': b'writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt\n'}
+[0.405300] (loadcells_pkg) StdoutLine: {'line': b'writing top-level names to loadcells_pkg.egg-info/top_level.txt\n'}
+[0.461665] (loadcells_pkg) StdoutLine: {'line': b"reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'\n"}
+[0.462439] (loadcells_pkg) StdoutLine: {'line': b"writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'\n"}
+[0.496758] (loadcells_pkg) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_loadcells_pkg_egg\n'}
+[0.500027] (-) TimerEvent: {}
+[0.600435] (-) TimerEvent: {}
+[0.700881] (-) TimerEvent: {}
+[0.801314] (-) TimerEvent: {}
+[0.901746] (-) TimerEvent: {}
+[1.002241] (-) TimerEvent: {}
+[1.102797] (-) TimerEvent: {}
+[1.203273] (-) TimerEvent: {}
+[1.303711] (-) TimerEvent: {}
+[1.404185] (-) TimerEvent: {}
+[1.504686] (-) TimerEvent: {}
+[1.605131] (-) TimerEvent: {}
+[1.705623] (-) TimerEvent: {}
+[1.806119] (-) TimerEvent: {}
+[1.906577] (-) TimerEvent: {}
+[2.007019] (-) TimerEvent: {}
+[2.107495] (-) TimerEvent: {}
+[2.207972] (-) TimerEvent: {}
+[2.308442] (-) TimerEvent: {}
+[2.408809] (-) TimerEvent: {}
+[2.509251] (-) TimerEvent: {}
+[2.609650] (-) TimerEvent: {}
+[2.710093] (-) TimerEvent: {}
+[2.810543] (-) TimerEvent: {}
+[2.910988] (-) TimerEvent: {}
+[3.011463] (-) TimerEvent: {}
+[3.111906] (-) TimerEvent: {}
+[3.212322] (-) TimerEvent: {}
+[3.312707] (-) TimerEvent: {}
+[3.413103] (-) TimerEvent: {}
+[3.513503] (-) TimerEvent: {}
+[3.613888] (-) TimerEvent: {}
+[3.714271] (-) TimerEvent: {}
+[3.814661] (-) TimerEvent: {}
+[3.915047] (-) TimerEvent: {}
+[4.015449] (-) TimerEvent: {}
+[4.115873] (-) TimerEvent: {}
+[4.216243] (-) TimerEvent: {}
+[4.316583] (-) TimerEvent: {}
+[4.416960] (-) TimerEvent: {}
+[4.517340] (-) TimerEvent: {}
+[4.617722] (-) TimerEvent: {}
+[4.718099] (-) TimerEvent: {}
+[4.818505] (-) TimerEvent: {}
+[4.918939] (-) TimerEvent: {}
+[5.019371] (-) TimerEvent: {}
+[5.109334] (loadcells_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable loadcell_publisher\x1b[0m\n'}
+[5.119541] (-) TimerEvent: {}
+[5.219953] (-) TimerEvent: {}
+[5.320364] (-) TimerEvent: {}
+[5.346460] (loadcells_pkg) StdoutLine: {'line': b'[100%] Built target loadcell_publisher\n'}
+[5.363808] (loadcells_pkg) CommandEnded: {'returncode': 0}
+[5.364861] (loadcells_pkg) JobProgress: {'identifier': 'loadcells_pkg', 'progress': 'install'}
+[5.377457] (loadcells_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/giulia0312/easywalk/build/loadcells_pkg'], 'cwd': '/home/giulia0312/easywalk/build/loadcells_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'giulia0312', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/giulia0312', 'OLDPWD': '/home/giulia0312', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2624', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/giulia0312/easywalk/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'giulia0312', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'giulia0312', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lenovo-giulia:@/tmp/.ICE-unix/2579,unix/lenovo-giulia:/tmp/.ICE-unix/2579', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/361f24cf_4e5b_4e35_84f3_5b76114c7a7a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QGKWN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/giulia0312/easywalk/build/loadcells_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.390237] (loadcells_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.390680] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/rosidl_interfaces/loadcells_pkg\n'}
+[5.390973] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/msg/LoadcellData.json\n'}
+[5.391082] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg\n'}
+[5.391357] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg\n'}
+[5.391563] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail\n'}
+[5.391666] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__struct.h\n'}
+[5.391762] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__functions.c\n'}
+[5.391866] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__description.c\n'}
+[5.391951] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.h\n'}
+[5.392034] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__functions.h\n'}
+[5.392115] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.c\n'}
+[5.392290] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/loadcell_data.h\n'}
+[5.392425] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.392514] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/library_path.sh\n'}
+[5.392599] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/library_path.dsv\n'}
+[5.392686] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_generator_c.so\n'}
+[5.392769] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg\n'}
+[5.392851] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg\n'}
+[5.392932] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.393013] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail\n'}
+[5.393098] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_fastrtps_c.h\n'}
+[5.393263] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[5.393372] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg\n'}
+[5.393452] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg\n'}
+[5.393530] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/loadcell_data.hpp\n'}
+[5.393609] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.393690] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail\n'}
+[5.393772] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.hpp\n'}
+[5.393856] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__traits.hpp\n'}
+[5.393938] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__struct.hpp\n'}
+[5.394025] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__builder.hpp\n'}
+[5.394106] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg\n'}
+[5.394210] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg\n'}
+[5.394292] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.394366] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail\n'}
+[5.394440] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.394515] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/dds_fastrtps\n'}
+[5.394591] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.394664] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg\n'}
+[5.394772] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg\n'}
+[5.394904] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail\n'}
+[5.394982] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_introspection_c.h\n'}
+[5.395078] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.c\n'}
+[5.395164] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.395247] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_introspection_c.so\n'}
+[5.395329] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_c.so\n'}
+[5.395407] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg\n'}
+[5.395486] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg\n'}
+[5.395563] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail\n'}
+[5.395641] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__type_support.cpp\n'}
+[5.395720] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/include/loadcells_pkg/loadcells_pkg/msg/detail/loadcell_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.395796] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[5.395941] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_typesupport_cpp.so\n'}
+[5.396014] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/pythonpath.sh\n'}
+[5.396093] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/pythonpath.dsv\n'}
+[5.396213] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info\n'}
+[5.396289] (loadcells_pkg) StdoutLine: {'line': b'-- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.396368] (loadcells_pkg) StdoutLine: {'line': b'-- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.396450] (loadcells_pkg) StdoutLine: {'line': b'-- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.396521] (loadcells_pkg) StdoutLine: {'line': b'-- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.396591] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg\n'}
+[5.396661] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_introspection_c.so\n'}
+[5.396730] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[5.396801] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.396872] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_c.so\n'}
+[5.396941] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/__init__.py\n'}
+[5.397009] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.397079] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.397148] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg\n'}
+[5.397225] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg/__init__.py\n'}
+[5.397293] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg/_loadcell_data.py\n'}
+[5.397364] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg/_loadcell_data_s.c\n'}
+[5.420563] (-) TimerEvent: {}
+[5.450260] (loadcells_pkg) StdoutLine: {'line': b"Listing '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg'...\n"}
+[5.450500] (loadcells_pkg) StdoutLine: {'line': b"Listing '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/msg'...\n"}
+[5.458374] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.458738] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_introspection_c.so\n'}
+[5.459268] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_c.so\n'}
+[5.459924] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/libloadcells_pkg__rosidl_generator_py.so\n'}
+[5.460299] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/rust_packages/loadcells_pkg\n'}
+[5.460492] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust\n'}
+[5.460583] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src\n'}
+[5.460661] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/msg.rs\n'}
+[5.460736] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/lib.rs\n'}
+[5.460812] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/msg\n'}
+[5.460887] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/src/msg/rmw.rs\n'}
+[5.460960] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/build.rs\n'}
+[5.461304] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/rust/Cargo.toml\n'}
+[5.461412] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/msg/LoadcellData.idl\n'}
+[5.461489] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/msg/LoadcellData.msg\n'}
+[5.461562] (loadcells_pkg) StdoutLine: {'line': b'-- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/lib/loadcells_pkg/loadcell_publisher\n'}
+[5.462449] (loadcells_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/giulia0312/easywalk/install/loadcells_pkg/lib/loadcells_pkg/loadcell_publisher" to ""\n'}
+[5.462964] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/lib/loadcells_pkg/loadcell_subscriber\n'}
+[5.463168] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/package_run_dependencies/loadcells_pkg\n'}
+[5.463348] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/parent_prefix_path/loadcells_pkg\n'}
+[5.463464] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/ament_prefix_path.sh\n'}
+[5.463542] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/ament_prefix_path.dsv\n'}
+[5.463621] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/path.sh\n'}
+[5.463699] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/environment/path.dsv\n'}
+[5.463772] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.bash\n'}
+[5.463875] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.sh\n'}
+[5.463941] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.zsh\n'}
+[5.464008] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/local_setup.dsv\n'}
+[5.464075] (loadcells_pkg) StdoutLine: {'line': b'-- Installing: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/package.dsv\n'}
+[5.464141] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/ament_index/resource_index/packages/loadcells_pkg\n'}
+[5.464397] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_cExport.cmake\n'}
+[5.464589] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.464724] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.464840] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.465080] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_cppExport.cmake\n'}
+[5.465305] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.465397] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.465497] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.465571] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.465924] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cExport.cmake\n'}
+[5.466013] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.466137] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.466242] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.466459] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[5.466659] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.466814] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_pyExport.cmake\n'}
+[5.466962] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/export_loadcells_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.467045] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[5.467125] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.467259] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.467334] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.467406] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.467478] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.467549] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.467622] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkgConfig.cmake\n'}
+[5.467693] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/cmake/loadcells_pkgConfig-version.cmake\n'}
+[5.467761] (loadcells_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/giulia0312/easywalk/install/loadcells_pkg/share/loadcells_pkg/package.xml\n'}
+[5.470462] (loadcells_pkg) CommandEnded: {'returncode': 0}
+[5.496357] (loadcells_pkg) JobEnded: {'identifier': 'loadcells_pkg', 'rc': 0}
+[5.497406] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/giulia0312/easywalk/build/pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+[0.045s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.546s] Traceback (most recent call last):
+[2.546s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[2.546s]     from ament_package.templates import get_environment_hook_template_path
+[2.546s] ModuleNotFoundError: No module named 'ament_package'
+[2.603s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[2.604s]   execute_process(/usr/bin/python3
+[2.604s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[2.604s]   /home/giulia0312/easywalk/build/pkg/ament_cmake_package_templates/templates.cmake)
+[2.604s]   returned error code 1
+[2.604s] Call Stack (most recent call first):
+[2.604s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.604s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.605s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.605s]   CMakeLists.txt:9 (find_package)
+[2.605s] 
+[2.605s] [0m
+[2.605s] -- Configuring incomplete, errors occurred!
+[2.609s] gmake: *** [Makefile:870: cmake_check_build_system] Error 1
+[2.613s] Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12

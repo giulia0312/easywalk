@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000664] (-) JobUnselected: {'identifier': 'loadcells_pkg'}
+[0.000770] (pkg) JobQueued: {'identifier': 'pkg', 'dependencies': OrderedDict()}
+[0.000802] (pkg) JobStarted: {'identifier': 'pkg'}
+[0.011649] (pkg) JobProgress: {'identifier': 'pkg', 'progress': 'cmake'}
+[0.012899] (pkg) JobProgress: {'identifier': 'pkg', 'progress': 'build'}
+[0.013949] (pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giulia0312/easywalk/build/pkg', '--', '-j12', '-l12'], 'cwd': '/home/giulia0312/easywalk/build/pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'giulia0312', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/giulia0312/easywalk/install/pkg/lib:/home/giulia0312/easywalk/install/loadcells_pkg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/giulia0312', 'OLDPWD': '/home/giulia0312', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2637', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/giulia0312/easywalk/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'giulia0312', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'giulia0312', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lenovo-giulia:@/tmp/.ICE-unix/2587,unix/lenovo-giulia:/tmp/.ICE-unix/2587', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e409fbe8_6d6f_4138_a622_d0105f7f6dd9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RXKTR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.156', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/giulia0312/easywalk/install/pkg:/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/giulia0312/easywalk/build/pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/giulia0312/easywalk/install/pkg/lib/python3.12/site-packages:/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/giulia0312/easywalk/install/pkg:/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048324] (pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099335] (-) TimerEvent: {}
+[0.187592] (pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.199533] (-) TimerEvent: {}
+[0.221259] (pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.232529] (pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.247050] (pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.263858] (pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299749] (-) TimerEvent: {}
+[0.344390] (pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.346055] (pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399961] (-) TimerEvent: {}
+[0.433753] (pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500173] (-) TimerEvent: {}
+[0.521504] (pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.538607] (pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.551650] (pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.600408] (-) TimerEvent: {}
+[0.700881] (-) TimerEvent: {}
+[0.801275] (-) TimerEvent: {}
+[0.901647] (-) TimerEvent: {}
+[0.903168] (pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.001891] (-) TimerEvent: {}
+[1.102268] (-) TimerEvent: {}
+[1.178481] (pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202449] (-) TimerEvent: {}
+[1.286042] (pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.287608] (pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.302707] (-) TimerEvent: {}
+[1.403117] (-) TimerEvent: {}
+[1.503539] (-) TimerEvent: {}
+[1.603949] (-) TimerEvent: {}
+[1.636113] (pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.704071] (-) TimerEvent: {}
+[1.719068] (pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.724596] (pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.734138] (pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.734782] (pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.735041] (pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.735427] (pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.736376] (pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.736810] (pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.737059] (pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.738816] (pkg) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.790720] (pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.804204] (-) TimerEvent: {}
+[1.809222] (pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/giulia0312/easywalk/build/pkg\n'}
+[1.857771] (pkg) StdoutLine: {'line': b'[  2%] Built target pkg__rs\n'}
+[1.864002] (pkg) StdoutLine: {'line': b'[  5%] Built target pkg__rosidl_generator_type_description\n'}
+[1.865972] (pkg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_pkg\n'}
+[1.891542] (pkg) StdoutLine: {'line': b'[ 15%] Built target pkg__cpp\n'}
+[1.891900] (pkg) StdoutLine: {'line': b'[ 20%] Built target pkg__rosidl_generator_c\n'}
+[1.904388] (-) TimerEvent: {}
+[1.917371] (pkg) StdoutLine: {'line': b'[ 33%] Built target pkg__rosidl_typesupport_c\n'}
+[1.917741] (pkg) StdoutLine: {'line': b'[ 35%] Built target pkg__rosidl_typesupport_introspection_c\n'}
+[1.920210] (pkg) StdoutLine: {'line': b'[ 43%] Built target pkg__rosidl_typesupport_introspection_cpp\n'}
+[1.928257] (pkg) StdoutLine: {'line': b'[ 51%] Built target pkg__rosidl_typesupport_cpp\n'}
+[1.929463] (pkg) StdoutLine: {'line': b'[ 58%] Built target pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.930008] (pkg) StdoutLine: {'line': b'[ 66%] Built target pkg__rosidl_typesupport_fastrtps_c\n'}
+[1.953793] (pkg) StdoutLine: {'line': b'[ 66%] Built target pkg\n'}
+[1.958321] (pkg) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/loadcellSubscriber.cpp.o\x1b[0m\n'}
+[1.969281] (pkg) StdoutLine: {'line': b'[ 74%] Built target publisher\n'}
+[1.981378] (pkg) StdoutLine: {'line': b'[ 76%] Built target pkg__py\n'}
+[2.004544] (-) TimerEvent: {}
+[2.013079] (pkg) StdoutLine: {'line': b'[ 82%] Built target pkg__rosidl_generator_py\n'}
+[2.040729] (pkg) StdoutLine: {'line': b'[ 87%] Built target pkg_s__rosidl_typesupport_fastrtps_c\n'}
+[2.043675] (pkg) StdoutLine: {'line': b'[ 92%] Built target pkg_s__rosidl_typesupport_c\n'}
+[2.047448] (pkg) StdoutLine: {'line': b'[ 97%] Built target pkg_s__rosidl_typesupport_introspection_c\n'}
+[2.104784] (-) TimerEvent: {}
+[2.132025] (pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.152423] (pkg) StdoutLine: {'line': b'writing pkg.egg-info/PKG-INFO\n'}
+[2.152886] (pkg) StdoutLine: {'line': b'writing dependency_links to pkg.egg-info/dependency_links.txt\n'}
+[2.153102] (pkg) StdoutLine: {'line': b'writing top-level names to pkg.egg-info/top_level.txt\n'}
+[2.204882] (-) TimerEvent: {}
+[2.212088] (pkg) StdoutLine: {'line': b"reading manifest file 'pkg.egg-info/SOURCES.txt'\n"}
+[2.212706] (pkg) StdoutLine: {'line': b"writing manifest file 'pkg.egg-info/SOURCES.txt'\n"}
+[2.249769] (pkg) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_pkg_egg\n'}
+[2.305010] (-) TimerEvent: {}
+[2.405431] (-) TimerEvent: {}
+[2.505949] (-) TimerEvent: {}
+[2.606438] (-) TimerEvent: {}
+[2.706892] (-) TimerEvent: {}
+[2.807303] (-) TimerEvent: {}
+[2.907799] (-) TimerEvent: {}
+[3.008299] (-) TimerEvent: {}
+[3.108795] (-) TimerEvent: {}
+[3.209208] (-) TimerEvent: {}
+[3.309719] (-) TimerEvent: {}
+[3.410217] (-) TimerEvent: {}
+[3.510734] (-) TimerEvent: {}
+[3.611230] (-) TimerEvent: {}
+[3.711742] (-) TimerEvent: {}
+[3.812120] (-) TimerEvent: {}
+[3.912619] (-) TimerEvent: {}
+[4.013127] (-) TimerEvent: {}
+[4.113631] (-) TimerEvent: {}
+[4.214033] (-) TimerEvent: {}
+[4.314523] (-) TimerEvent: {}
+[4.359030] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloadcells_pkg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.359811] (pkg) StderrLine: {'line': b'   19 |     void topicCallback(const \x1b[01;31m\x1b[Kloadcells_pkg\x1b[m\x1b[K::msg::LoadcellData &msg) const {\n'}
+[4.360023] (pkg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.360208] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.360390] (pkg) StderrLine: {'line': b'   19 |     void topicCallback(const loadcells_pkg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KLoadcellData &msg) const {\n'}
+[4.360568] (pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.360771] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.360949] (pkg) StderrLine: {'line': b'   19 |     void topicCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst loadcells_pkg::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KLoadcellData &msg) const {\n'}
+[4.361121] (pkg) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[4.361293] (pkg) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.361467] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.361642] (pkg) StderrLine: {'line': b'   19 |     void topicCallback(const loadcells_pkg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::LoadcellData &msg) const {\n'}
+[4.361829] (pkg) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.362001] (pkg) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.362898] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLoadcellData\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.363150] (pkg) StderrLine: {'line': b'   19 |     void topicCallback(const loadcells_pkg::msg::\x1b[01;31m\x1b[KLoadcellData\x1b[m\x1b[K &msg) const {\n'}
+[4.363338] (pkg) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.373799] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloadcells_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.374145] (pkg) StderrLine: {'line': b'   49 |     rclcpp::Subscription<\x1b[01;31m\x1b[Kloadcells_pkg\x1b[m\x1b[K::msg::LoadcellData>::SharedPtr subscriber;\n'}
+[4.374334] (pkg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.374534] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.374726] (pkg) StderrLine: {'line': b'   49 |     rclcpp::Subscription<loadcells_pkg::msg::LoadcellData\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscriber;\n'}
+[4.374902] (pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.375075] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[4.375248] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[4.375422] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[4.375594] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.375781] (pkg) StderrLine: {'line': b'   49 |     rclcpp::Subscription<loadcells_pkg::msg::LoadcellData>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscriber;\n'}
+[4.375954] (pkg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.376238] (pkg) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.376484] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.376669] (pkg) StderrLine: {'line': b'   49 |     rclcpp::Subscription<loadcells_pkg::msg::LoadcellData>::SharedPtr \x1b[01;31m\x1b[Ksubscriber\x1b[m\x1b[K;\n'}
+[4.376874] (pkg) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.385842] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLoadcellSubscriber::\x1b[01;32m\x1b[KLoadcellSubscriber\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.386157] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.386379] (pkg) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Ksubscriber\x1b[m\x1b[K = create_subscription<loadcells_pkg::msg::LoadcellData>\n'}
+[4.386558] (pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.396765] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:9:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloadcells_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.397100] (pkg) StderrLine: {'line': b'    9 |         subscriber = create_subscription<\x1b[01;31m\x1b[Kloadcells_pkg\x1b[m\x1b[K::msg::LoadcellData>\n'}
+[4.397292] (pkg) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.397474] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:9:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[4.397673] (pkg) StderrLine: {'line': b'    9 |         subscriber = \x1b[01;31m\x1b[Kcreate_subscription<loadcells_pkg::msg::LoadcellData>\x1b[m\x1b[K\n'}
+[4.397876] (pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.401952] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:10:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLoadcellSubscriber::create_subscription<<expression error> >(const char [11], int, std::_Bind_helper<false, void (LoadcellSubscriber::*)(...), LoadcellSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.402259] (pkg) StderrLine: {'line': b'    9 |         subscriber = \x1b[01;31m\x1b[Kcreate_subscription<loadcells_pkg::msg::LoadcellData>\x1b[m\x1b[K\n'}
+[4.402458] (pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.402642] (pkg) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[K        (\x1b[m\x1b[K\n'}
+[4.402837] (pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.403013] (pkg) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[K            "/loadcells",\x1b[m\x1b[K\n'}
+[4.403186] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.403360] (pkg) StderrLine: {'line': b'   12 | \x1b[01;31m\x1b[K            10,\x1b[m\x1b[K\n'}
+[4.403532] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~\x1b[m\x1b[K\n'}
+[4.403711] (pkg) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[K            //now we need a callback function that will execute every time a msg is published in the topic\x1b[m\x1b[K\n'}
+[4.403892] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.404062] (pkg) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[K            //_1 tells the function to use the first parameter that is passed\x1b[m\x1b[K\n'}
+[4.404233] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.404403] (pkg) StderrLine: {'line': b'   15 | \x1b[01;31m\x1b[K            std::bind(&LoadcellSubscriber::topicCallback, this, _1)\x1b[m\x1b[K\n'}
+[4.404573] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.404754] (pkg) StderrLine: {'line': b'   16 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[4.404924] (pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K\n'}
+[4.405093] (pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.405265] (pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.405435] (pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[4.405604] (pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.405784] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.405966] (pkg) StderrLine: {'line': b'  221 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[4.406135] (pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.406334] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.406507] (pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:10:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.406679] (pkg) StderrLine: {'line': b'    9 |         subscriber = \x1b[01;31m\x1b[Kcreate_subscription<loadcells_pkg::msg::LoadcellData>\x1b[m\x1b[K\n'}
+[4.406863] (pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.407036] (pkg) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[K        (\x1b[m\x1b[K\n'}
+[4.407206] (pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.407375] (pkg) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[K            "/loadcells",\x1b[m\x1b[K\n'}
+[4.407544] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.407722] (pkg) StderrLine: {'line': b'   12 | \x1b[01;31m\x1b[K            10,\x1b[m\x1b[K\n'}
+[4.407900] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~\x1b[m\x1b[K\n'}
+[4.408069] (pkg) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[K            //now we need a callback function that will execute every time a msg is published in the topic\x1b[m\x1b[K\n'}
+[4.408239] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.408407] (pkg) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[K            //_1 tells the function to use the first parameter that is passed\x1b[m\x1b[K\n'}
+[4.408578] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.408755] (pkg) StderrLine: {'line': b'   15 | \x1b[01;31m\x1b[K            std::bind(&LoadcellSubscriber::topicCallback, this, _1)\x1b[m\x1b[K\n'}
+[4.408926] (pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.409105] (pkg) StderrLine: {'line': b'   16 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[4.409274] (pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K\n'}
+[4.414759] (-) TimerEvent: {}
+[4.515258] (-) TimerEvent: {}
+[4.615776] (-) TimerEvent: {}
+[4.716314] (-) TimerEvent: {}
+[4.816739] (-) TimerEvent: {}
+[4.917148] (-) TimerEvent: {}
+[5.017550] (-) TimerEvent: {}
+[5.097963] (pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/loadcellSubscriber.cpp.o] Error 1\n'}
+[5.098495] (pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:674: CMakeFiles/subscriber.dir/all] Error 2\n'}
+[5.099105] (pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.101670] (pkg) CommandEnded: {'returncode': 2}
+[5.118274] (-) TimerEvent: {}
+[5.122531] (pkg) JobEnded: {'identifier': 'pkg', 'rc': 2}
+[5.133822] (-) EventReactorShutdown: {}

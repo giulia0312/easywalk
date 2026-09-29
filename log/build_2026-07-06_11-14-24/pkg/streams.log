@@ -1,0 +1,145 @@
+[0.014s] Invoking command in '/home/giulia0312/easywalk/build/pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12
+[0.048s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.187s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.221s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.232s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.345s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.521s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.538s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.551s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.903s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.287s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.636s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.719s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.724s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.734s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.734s] -- Configured cppcheck include dirs: 
+[1.734s] -- Configured cppcheck exclude dirs and/or files: 
+[1.735s] -- Added test 'lint_cmake' to check CMake code style
+[1.736s] -- Added test 'uncrustify' to check C / C++ code style
+[1.736s] -- Configured uncrustify additional arguments: 
+[1.736s] -- Added test 'xmllint' to check XML markup files
+[1.738s] -- Configuring done (1.7s)
+[1.790s] -- Generating done (0.0s)
+[1.809s] -- Build files have been written to: /home/giulia0312/easywalk/build/pkg
+[1.857s] [  2%] Built target pkg__rs
+[1.863s] [  5%] Built target pkg__rosidl_generator_type_description
+[1.865s] [  5%] Built target ament_cmake_python_copy_pkg
+[1.891s] [ 15%] Built target pkg__cpp
+[1.891s] [ 20%] Built target pkg__rosidl_generator_c
+[1.917s] [ 33%] Built target pkg__rosidl_typesupport_c
+[1.917s] [ 35%] Built target pkg__rosidl_typesupport_introspection_c
+[1.920s] [ 43%] Built target pkg__rosidl_typesupport_introspection_cpp
+[1.928s] [ 51%] Built target pkg__rosidl_typesupport_cpp
+[1.929s] [ 58%] Built target pkg__rosidl_typesupport_fastrtps_cpp
+[1.929s] [ 66%] Built target pkg__rosidl_typesupport_fastrtps_c
+[1.953s] [ 66%] Built target pkg
+[1.958s] [ 69%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/loadcellSubscriber.cpp.o[0m
+[1.969s] [ 74%] Built target publisher
+[1.981s] [ 76%] Built target pkg__py
+[2.012s] [ 82%] Built target pkg__rosidl_generator_py
+[2.040s] [ 87%] Built target pkg_s__rosidl_typesupport_fastrtps_c
+[2.043s] [ 92%] Built target pkg_s__rosidl_typesupport_c
+[2.047s] [ 97%] Built target pkg_s__rosidl_typesupport_introspection_c
+[2.131s] running egg_info
+[2.152s] writing pkg.egg-info/PKG-INFO
+[2.152s] writing dependency_links to pkg.egg-info/dependency_links.txt
+[2.152s] writing top-level names to pkg.egg-info/top_level.txt
+[2.212s] reading manifest file 'pkg.egg-info/SOURCES.txt'
+[2.212s] writing manifest file 'pkg.egg-info/SOURCES.txt'
+[2.249s] [ 97%] Built target ament_cmake_python_build_pkg_egg
+[4.359s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kloadcells_pkg[m[K’ does not name a type
+[4.359s]    19 |     void topicCallback(const [01;31m[Kloadcells_pkg[m[K::msg::LoadcellData &msg) const {
+[4.359s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[4.360s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:48:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[4.360s]    19 |     void topicCallback(const loadcells_pkg::msg[01;31m[K::[m[KLoadcellData &msg) const {
+[4.360s]       |                                                [01;31m[K^~[m[K
+[4.360s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[4.360s]    19 |     void topicCallback[34m[K([m[Kconst loadcells_pkg::msg[01;31m[K:[m[K[32m[K:[m[KLoadcellData &msg) const {
+[4.360s]       |                       [34m[K~[m[K                        [01;31m[K^[m[K[32m[K~[m[K
+[4.361s]       |                                                [32m[K)[m[K
+[4.361s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.361s]    19 |     void topicCallback(const loadcells_pkg::[01;31m[Kmsg[m[K::LoadcellData &msg) const {
+[4.361s]       |                                             [01;31m[K^~~[m[K
+[4.361s]       |                                                [32m[K;[m[K
+[4.362s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:19:50:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadcellData[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[4.362s]    19 |     void topicCallback(const loadcells_pkg::msg::[01;31m[KLoadcellData[m[K &msg) const {
+[4.363s]       |                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[4.373s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kloadcells_pkg[m[K’ was not declared in this scope
+[4.373s]    49 |     rclcpp::Subscription<[01;31m[Kloadcells_pkg[m[K::msg::LoadcellData>::SharedPtr subscriber;
+[4.374s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[4.374s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.374s]    49 |     rclcpp::Subscription<loadcells_pkg::msg::LoadcellData[01;31m[K>[m[K::SharedPtr subscriber;
+[4.374s]       |                                                          [01;31m[K^[m[K
+[4.374s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[4.375s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[4.375s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[4.375s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.375s]    49 |     rclcpp::Subscription<loadcells_pkg::msg::LoadcellData>::[01;31m[KSharedPtr[m[K subscriber;
+[4.375s]       |                                                             [01;31m[K^~~~~~~~~[m[K
+[4.376s]       |                                                                      [32m[K;[m[K
+[4.376s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:49:71:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ does not name a type
+[4.376s]    49 |     rclcpp::Subscription<loadcells_pkg::msg::LoadcellData>::SharedPtr [01;31m[Ksubscriber[m[K;
+[4.376s]       |                                                                       [01;31m[K^~~~~~~~~~[m[K
+[4.385s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:[m[K In constructor ‘[01m[KLoadcellSubscriber::[01;32m[KLoadcellSubscriber[m[K()[m[K’:
+[4.386s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ was not declared in this scope
+[4.386s]     9 |         [01;31m[Ksubscriber[m[K = create_subscription<loadcells_pkg::msg::LoadcellData>
+[4.386s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.396s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:9:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kloadcells_pkg[m[K’ was not declared in this scope
+[4.396s]     9 |         subscriber = create_subscription<[01;31m[Kloadcells_pkg[m[K::msg::LoadcellData>
+[4.397s]       |                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[4.397s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:9:22:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.397s]     9 |         subscriber = [01;31m[Kcreate_subscription<loadcells_pkg::msg::LoadcellData>[m[K
+[4.397s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.401s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:10:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLoadcellSubscriber::create_subscription<<expression error> >(const char [11], int, std::_Bind_helper<false, void (LoadcellSubscriber::*)(...), LoadcellSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[4.402s]     9 |         subscriber = [01;31m[Kcreate_subscription<loadcells_pkg::msg::LoadcellData>[m[K
+[4.402s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.402s]    10 | [01;31m[K        ([m[K
+[4.402s]       |         [01;31m[K^[m[K
+[4.402s]    11 | [01;31m[K            "/loadcells",[m[K
+[4.403s]       |             [01;31m[K~~~~~~~~~~~~~[m[K
+[4.403s]    12 | [01;31m[K            10,[m[K
+[4.403s]       |             [01;31m[K~~~[m[K
+[4.403s]    13 | [01;31m[K            //now we need a callback function that will execute every time a msg is published in the topic[m[K
+[4.403s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.403s]    14 | [01;31m[K            //_1 tells the function to use the first parameter that is passed[m[K
+[4.404s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.404s]    15 | [01;31m[K            std::bind(&LoadcellSubscriber::topicCallback, this, _1)[m[K
+[4.404s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.404s]    16 | [01;31m[K        )[m[K;
+[4.404s]       |         [01;31m[K~[m[K
+[4.404s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.405s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.405s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[4.405s]                  from [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:1[m[K:
+[4.405s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.405s]   221 |   [01;36m[Kcreate_subscription[m[K(
+[4.405s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.406s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.406s] [01m[K/home/giulia0312/easywalk/src/pkg/src/loadcellSubscriber.cpp:10:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.406s]     9 |         subscriber = [01;31m[Kcreate_subscription<loadcells_pkg::msg::LoadcellData>[m[K
+[4.406s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.406s]    10 | [01;31m[K        ([m[K
+[4.407s]       |         [01;31m[K^[m[K
+[4.407s]    11 | [01;31m[K            "/loadcells",[m[K
+[4.407s]       |             [01;31m[K~~~~~~~~~~~~~[m[K
+[4.407s]    12 | [01;31m[K            10,[m[K
+[4.407s]       |             [01;31m[K~~~[m[K
+[4.407s]    13 | [01;31m[K            //now we need a callback function that will execute every time a msg is published in the topic[m[K
+[4.408s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.408s]    14 | [01;31m[K            //_1 tells the function to use the first parameter that is passed[m[K
+[4.408s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.408s]    15 | [01;31m[K            std::bind(&LoadcellSubscriber::topicCallback, this, _1)[m[K
+[4.408s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.408s]    16 | [01;31m[K        )[m[K;
+[4.409s]       |         [01;31m[K~[m[K
+[5.097s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/loadcellSubscriber.cpp.o] Error 1
+[5.098s] gmake[1]: *** [CMakeFiles/Makefile2:674: CMakeFiles/subscriber.dir/all] Error 2
+[5.098s] gmake: *** [Makefile:146: all] Error 2
+[5.101s] Invoked command in '/home/giulia0312/easywalk/build/pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/pkg -- -j12 -l12

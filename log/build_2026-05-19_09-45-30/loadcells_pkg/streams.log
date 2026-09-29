@@ -1,0 +1,120 @@
+[0.020s] Invoking command in '/home/giulia0312/easywalk/build/loadcells_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/giulia0312/easywalk/src/loadcells_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/giulia0312/easywalk/install/loadcells_pkg
+[0.048s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.258s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.308s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.325s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.499s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.793s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.844s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.865s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.302s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.791s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.296s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.393s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.401s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.421s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.422s] -- Configured cppcheck include dirs: 
+[2.422s] -- Configured cppcheck exclude dirs and/or files: 
+[2.423s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.423s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.424s] -- Added test 'lint_cmake' to check CMake code style
+[2.425s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.427s] -- Added test 'uncrustify' to check C / C++ code style
+[2.427s] -- Configured uncrustify additional arguments: 
+[2.428s] -- Added test 'xmllint' to check XML markup files
+[2.432s] -- Configuring done (2.4s)
+[2.527s] -- Generating done (0.1s)
+[2.555s] -- Build files have been written to: /home/giulia0312/easywalk/build/loadcells_pkg
+[2.571s] Invoked command in '/home/giulia0312/easywalk/build/loadcells_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/giulia0312/easywalk/src/loadcells_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/giulia0312/easywalk/install/loadcells_pkg
+[2.573s] Invoking command in '/home/giulia0312/easywalk/build/loadcells_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12
+[2.658s] [  2%] Built target loadcells_pkg__rosidl_generator_type_description
+[2.659s] [  4%] Built target loadcells_pkg__rs
+[2.677s] [  4%] Built target ament_cmake_python_copy_loadcells_pkg
+[2.693s] [  6%] Built target loadcells_pkg__cpp
+[2.693s] [ 18%] Built target loadcells_pkg__rosidl_generator_c
+[2.739s] [ 25%] Built target loadcells_pkg__rosidl_typesupport_introspection_c
+[2.741s] [ 27%] [32mBuilding CXX object CMakeFiles/loadcells_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/loadcells_pkg/msg/detail/loadcell_data__type_support_c.cpp.o[0m
+[2.746s] [ 30%] [32mBuilding CXX object CMakeFiles/loadcells_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/loadcells_pkg/msg/detail/dds_fastrtps/loadcell_data__type_support.cpp.o[0m
+[2.751s] [ 37%] Built target loadcells_pkg__rosidl_typesupport_c
+[2.753s] [ 39%] [32mBuilding CXX object CMakeFiles/loadcells_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/loadcells_pkg/msg/detail/loadcell_data__type_support.cpp.o[0m
+[2.754s] [ 41%] [32mBuilding CXX object CMakeFiles/loadcells_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/loadcells_pkg/msg/loadcell_data__type_support.cpp.o[0m
+[3.149s] running egg_info
+[3.191s] writing loadcells_pkg.egg-info/PKG-INFO
+[3.192s] writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt
+[3.192s] writing top-level names to loadcells_pkg.egg-info/top_level.txt
+[3.393s] reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[3.395s] writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'
+[3.432s] [ 44%] [32m[1mLinking CXX shared library libloadcells_pkg__rosidl_typesupport_cpp.so[0m
+[3.531s] [ 44%] Built target ament_cmake_python_build_loadcells_pkg_egg
+[3.571s] [ 46%] Built target loadcells_pkg__rosidl_typesupport_cpp
+[3.660s] [ 48%] [32mBuilding CXX object CMakeFiles/loadcell_subscriber.dir/src/loadcell_subscriber.cpp.o[0m
+[3.662s] [ 51%] [32mBuilding CXX object CMakeFiles/loadcell_publisher.dir/src/loadcell_publisher.cpp.o[0m
+[3.663s] [ 53%] [32mBuilding CXX object CMakeFiles/loadcell_publisher1.dir/src/loadcell_publisher1.cpp.o[0m
+[3.669s] [ 55%] [32mBuilding CXX object CMakeFiles/loadcell_publisher_advanced.dir/src/loadcell_publisher_advanced.cpp.o[0m
+[3.673s] [ 58%] [32m[1mLinking CXX shared library libloadcells_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[3.852s] [ 60%] [32m[1mLinking CXX shared library libloadcells_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[3.862s] [ 62%] [32m[1mLinking CXX shared library libloadcells_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.885s] [ 65%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp
+[4.019s] [ 67%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c
+[4.029s] [ 69%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp
+[4.076s] [ 69%] Built target loadcells_pkg
+[4.124s] [ 72%] Built target loadcells_pkg__py
+[4.180s] [ 74%] [32mBuilding C object CMakeFiles/loadcells_pkg__rosidl_generator_py.dir/rosidl_generator_py/loadcells_pkg/msg/_loadcell_data_s.c.o[0m
+[4.555s] [ 76%] [32m[1mLinking C shared library libloadcells_pkg__rosidl_generator_py.so[0m
+[4.662s] [ 76%] Built target loadcells_pkg__rosidl_generator_py
+[4.724s] [ 79%] [32mBuilding C object CMakeFiles/loadcells_pkg_s__rosidl_typesupport_c.dir/rosidl_generator_py/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[4.730s] [ 81%] [32mBuilding C object CMakeFiles/loadcells_pkg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.736s] [ 83%] [32mBuilding C object CMakeFiles/loadcells_pkg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/loadcells_pkg/_loadcells_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.993s] [ 86%] [32m[1mLinking C shared module rosidl_generator_py/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_c.so[0m
+[5.073s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_introspection_c.so[0m
+[5.077s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/loadcells_pkg/loadcells_pkg_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.089s] [ 90%] Built target loadcells_pkg_s__rosidl_typesupport_c
+[5.167s] [ 90%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c
+[5.171s] [ 90%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c
+[8.859s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:[m[K In constructor ‘[01m[KLoadcellPublisher::[01;32m[KLoadcellPublisher[m[K()[m[K’:
+[8.860s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+[8.860s]    10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+[8.860s]       |                                                    [01;31m[K^[m[K
+[8.860s] In file included from [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:6[m[K:
+[8.861s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+[8.861s]    36 |     [01;36m[KSimpleHX711[m[K(
+[8.862s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.862s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[8.862s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+[8.862s]    10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+[8.863s]       |                                                    [01;31m[K^[m[K
+[8.863s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+[8.863s]    36 |     [01;36m[KSimpleHX711[m[K(
+[8.863s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.864s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[8.864s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+[8.864s]    10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+[8.864s]       |                                                    [01;31m[K^[m[K
+[8.865s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+[8.865s]    36 |     [01;36m[KSimpleHX711[m[K(
+[8.865s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.865s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[8.866s] [01m[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHX711::SimpleHX711::SimpleHX711()[m[K’
+[8.866s]    10 |     LoadcellPublisher() : Node("loadcell_publisher"[01;31m[K)[m[K{
+[8.866s]       |                                                    [01;31m[K^[m[K
+[8.866s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHX711::SimpleHX711::[01;32m[KSimpleHX711[m[K(int, int, HX711::Value, HX711::Value, HX711::Rate)[m[K’
+[8.867s]    36 |     [01;36m[KSimpleHX711[m[K(
+[8.867s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.867s] [01m[K/usr/local/include/hx711/SimpleHX711.h:36:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[10.777s] gmake[2]: *** [CMakeFiles/loadcell_publisher1.dir/build.make:76: CMakeFiles/loadcell_publisher1.dir/src/loadcell_publisher1.cpp.o] Error 1
+[10.777s] gmake[1]: *** [CMakeFiles/Makefile2:678: CMakeFiles/loadcell_publisher1.dir/all] Error 2
+[10.777s] gmake[1]: *** Waiting for unfinished jobs....
+[13.099s] [ 93%] [32m[1mLinking CXX executable loadcell_publisher_advanced[0m
+[13.192s] [ 95%] [32m[1mLinking CXX executable loadcell_publisher[0m
+[13.410s] [ 95%] Built target loadcell_publisher_advanced
+[13.529s] [ 95%] Built target loadcell_publisher
+[17.292s] [ 97%] [32m[1mLinking CXX executable loadcell_subscriber[0m
+[17.657s] [ 97%] Built target loadcell_subscriber
+[17.659s] gmake: *** [Makefile:146: all] Error 2
+[17.662s] Invoked command in '/home/giulia0312/easywalk/build/loadcells_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/giulia0312/easywalk/build/loadcells_pkg -- -j12 -l12

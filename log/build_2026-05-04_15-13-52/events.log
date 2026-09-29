@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000538] (loadcells_pkg) JobQueued: {'identifier': 'loadcells_pkg', 'dependencies': OrderedDict()}
+[0.000595] (loadcells_pkg) JobStarted: {'identifier': 'loadcells_pkg'}
+[0.010916] (loadcells_pkg) JobProgress: {'identifier': 'loadcells_pkg', 'progress': 'cmake'}
+[0.013160] (loadcells_pkg) JobProgress: {'identifier': 'loadcells_pkg', 'progress': 'build'}
+[0.013251] (loadcells_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giulia0312/easywalk/build/loadcells_pkg', '--', '-j12', '-l12'], 'cwd': '/home/giulia0312/easywalk/build/loadcells_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'giulia0312', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/giulia0312', 'OLDPWD': '/home/giulia0312', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2493', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/giulia0312/easywalk/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'giulia0312', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'giulia0312', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lenovo-giulia:@/tmp/.ICE-unix/2439,unix/lenovo-giulia:/tmp/.ICE-unix/2439', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f63bd712_f3eb_40d5_a9ca_ea98cf27fe67', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KKFWO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/giulia0312/easywalk/build/loadcells_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/giulia0312/easywalk/install/loadcells_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/giulia0312/easywalk/install/loadcells_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.064614] (loadcells_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099837] (-) TimerEvent: {}
+[0.200448] (-) TimerEvent: {}
+[0.283784] (loadcells_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300574] (-) TimerEvent: {}
+[0.335412] (loadcells_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.350964] (loadcells_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.371658] (loadcells_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.397881] (loadcells_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400760] (-) TimerEvent: {}
+[0.501325] (-) TimerEvent: {}
+[0.515535] (loadcells_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.518548] (loadcells_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601505] (-) TimerEvent: {}
+[0.632346] (loadcells_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701703] (-) TimerEvent: {}
+[0.759617] (loadcells_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.786451] (loadcells_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.801911] (-) TimerEvent: {}
+[0.805849] (loadcells_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.902191] (-) TimerEvent: {}
+[1.002630] (-) TimerEvent: {}
+[1.103147] (-) TimerEvent: {}
+[1.203784] (-) TimerEvent: {}
+[1.232112] (loadcells_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.303912] (-) TimerEvent: {}
+[1.404390] (-) TimerEvent: {}
+[1.504848] (-) TimerEvent: {}
+[1.569051] (loadcells_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604975] (-) TimerEvent: {}
+[1.695081] (loadcells_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.699509] (loadcells_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.705113] (-) TimerEvent: {}
+[1.805502] (-) TimerEvent: {}
+[1.905957] (-) TimerEvent: {}
+[2.006434] (-) TimerEvent: {}
+[2.106939] (-) TimerEvent: {}
+[2.159653] (loadcells_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.207233] (-) TimerEvent: {}
+[2.257581] (loadcells_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.268194] (loadcells_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.286523] (loadcells_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.287328] (loadcells_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.287534] (loadcells_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.288246] (loadcells_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.288455] (loadcells_pkg) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.289187] (loadcells_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.290083] (loadcells_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.292625] (loadcells_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.292969] (loadcells_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.293599] (loadcells_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.298091] (loadcells_pkg) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.307363] (-) TimerEvent: {}
+[2.386183] (loadcells_pkg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.407562] (-) TimerEvent: {}
+[2.415134] (loadcells_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/giulia0312/easywalk/build/loadcells_pkg\n'}
+[2.477946] (loadcells_pkg) StdoutLine: {'line': b'[  2%] Built target loadcells_pkg__rosidl_generator_type_description\n'}
+[2.478579] (loadcells_pkg) StdoutLine: {'line': b'[  4%] Built target loadcells_pkg__rs\n'}
+[2.488262] (loadcells_pkg) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_loadcells_pkg\n'}
+[2.507752] (-) TimerEvent: {}
+[2.513617] (loadcells_pkg) StdoutLine: {'line': b'[  6%] Built target loadcells_pkg__cpp\n'}
+[2.516825] (loadcells_pkg) StdoutLine: {'line': b'[ 18%] Built target loadcells_pkg__rosidl_generator_c\n'}
+[2.564779] (loadcells_pkg) StdoutLine: {'line': b'[ 25%] Built target loadcells_pkg__rosidl_typesupport_introspection_c\n'}
+[2.565562] (loadcells_pkg) StdoutLine: {'line': b'[ 32%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.567332] (loadcells_pkg) StdoutLine: {'line': b'[ 39%] Built target loadcells_pkg__rosidl_typesupport_fastrtps_c\n'}
+[2.568506] (loadcells_pkg) StdoutLine: {'line': b'[ 46%] Built target loadcells_pkg__rosidl_typesupport_c\n'}
+[2.573956] (loadcells_pkg) StdoutLine: {'line': b'[ 53%] Built target loadcells_pkg__rosidl_typesupport_cpp\n'}
+[2.575782] (loadcells_pkg) StdoutLine: {'line': b'[ 60%] Built target loadcells_pkg__rosidl_typesupport_introspection_cpp\n'}
+[2.607909] (-) TimerEvent: {}
+[2.618055] (loadcells_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/loadcell_publisher1.dir/src/loadcell_publisher1.cpp.o\x1b[0m\n'}
+[2.633766] (loadcells_pkg) StdoutLine: {'line': b'[ 72%] Built target loadcell_publisher\n'}
+[2.634148] (loadcells_pkg) StdoutLine: {'line': b'[ 72%] Built target loadcell_subscriber\n'}
+[2.643724] (loadcells_pkg) StdoutLine: {'line': b'[ 76%] Built target loadcell_publisher_advanced\n'}
+[2.675603] (loadcells_pkg) StdoutLine: {'line': b'[ 76%] Built target loadcells_pkg\n'}
+[2.708109] (-) TimerEvent: {}
+[2.724203] (loadcells_pkg) StdoutLine: {'line': b'[ 79%] Built target loadcells_pkg__py\n'}
+[2.775542] (loadcells_pkg) StdoutLine: {'line': b'[ 83%] Built target loadcells_pkg__rosidl_generator_py\n'}
+[2.808309] (-) TimerEvent: {}
+[2.827222] (loadcells_pkg) StdoutLine: {'line': b'[ 88%] Built target loadcells_pkg_s__rosidl_typesupport_c\n'}
+[2.830054] (loadcells_pkg) StdoutLine: {'line': b'[ 97%] Built target loadcells_pkg_s__rosidl_typesupport_introspection_c\n'}
+[2.830554] (loadcells_pkg) StdoutLine: {'line': b'[ 97%] Built target loadcells_pkg_s__rosidl_typesupport_fastrtps_c\n'}
+[2.908578] (-) TimerEvent: {}
+[2.919133] (loadcells_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.959541] (loadcells_pkg) StdoutLine: {'line': b'writing loadcells_pkg.egg-info/PKG-INFO\n'}
+[2.960279] (loadcells_pkg) StdoutLine: {'line': b'writing dependency_links to loadcells_pkg.egg-info/dependency_links.txt\n'}
+[2.960546] (loadcells_pkg) StdoutLine: {'line': b'writing top-level names to loadcells_pkg.egg-info/top_level.txt\n'}
+[3.008706] (-) TimerEvent: {}
+[3.072070] (loadcells_pkg) StdoutLine: {'line': b"reading manifest file 'loadcells_pkg.egg-info/SOURCES.txt'\n"}
+[3.073053] (loadcells_pkg) StdoutLine: {'line': b"writing manifest file 'loadcells_pkg.egg-info/SOURCES.txt'\n"}
+[3.108942] (-) TimerEvent: {}
+[3.120784] (loadcells_pkg) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_loadcells_pkg_egg\n'}
+[3.209221] (-) TimerEvent: {}
+[3.309706] (-) TimerEvent: {}
+[3.410156] (-) TimerEvent: {}
+[3.510700] (-) TimerEvent: {}
+[3.611329] (-) TimerEvent: {}
+[3.711834] (-) TimerEvent: {}
+[3.812325] (-) TimerEvent: {}
+[3.912744] (-) TimerEvent: {}
+[4.013347] (-) TimerEvent: {}
+[4.113747] (-) TimerEvent: {}
+[4.214228] (-) TimerEvent: {}
+[4.314595] (-) TimerEvent: {}
+[4.415053] (-) TimerEvent: {}
+[4.515453] (-) TimerEvent: {}
+[4.615936] (-) TimerEvent: {}
+[4.716342] (-) TimerEvent: {}
+[4.816780] (-) TimerEvent: {}
+[4.917228] (-) TimerEvent: {}
+[5.017643] (-) TimerEvent: {}
+[5.118119] (-) TimerEvent: {}
+[5.218511] (-) TimerEvent: {}
+[5.318956] (-) TimerEvent: {}
+[5.419399] (-) TimerEvent: {}
+[5.519862] (-) TimerEvent: {}
+[5.620337] (-) TimerEvent: {}
+[5.720747] (-) TimerEvent: {}
+[5.821220] (-) TimerEvent: {}
+[5.921635] (-) TimerEvent: {}
+[6.022113] (-) TimerEvent: {}
+[6.122548] (-) TimerEvent: {}
+[6.129921] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLoadcellPublisher::\x1b[01;32m\x1b[KLoadcellPublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.130272] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::SimpleHX711()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.130386] (loadcells_pkg) StderrLine: {'line': b'   10 |     LoadcellPublisher() : Node("loadcell_publisher"\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[6.130485] (loadcells_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.130568] (loadcells_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:6\x1b[m\x1b[K:\n'}
+[6.130653] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::\x1b[01;32m\x1b[KSimpleHX711\x1b[m\x1b[K(int, int, HX711::Value, HX711::Value, HX711::Rate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.130743] (loadcells_pkg) StderrLine: {'line': b'   36 |     \x1b[01;36m\x1b[KSimpleHX711\x1b[m\x1b[K(\n'}
+[6.130828] (loadcells_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.132194] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 0 provided\n'}
+[6.133192] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::SimpleHX711()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.133437] (loadcells_pkg) StderrLine: {'line': b'   10 |     LoadcellPublisher() : Node("loadcell_publisher"\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[6.133617] (loadcells_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.133788] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::\x1b[01;32m\x1b[KSimpleHX711\x1b[m\x1b[K(int, int, HX711::Value, HX711::Value, HX711::Rate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.133958] (loadcells_pkg) StderrLine: {'line': b'   36 |     \x1b[01;36m\x1b[KSimpleHX711\x1b[m\x1b[K(\n'}
+[6.134125] (loadcells_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.134307] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 0 provided\n'}
+[6.134476] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::SimpleHX711()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.134645] (loadcells_pkg) StderrLine: {'line': b'   10 |     LoadcellPublisher() : Node("loadcell_publisher"\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[6.134811] (loadcells_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.134974] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::\x1b[01;32m\x1b[KSimpleHX711\x1b[m\x1b[K(int, int, HX711::Value, HX711::Value, HX711::Rate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.135141] (loadcells_pkg) StderrLine: {'line': b'   36 |     \x1b[01;36m\x1b[KSimpleHX711\x1b[m\x1b[K(\n'}
+[6.135316] (loadcells_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.135479] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 0 provided\n'}
+[6.135646] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::SimpleHX711()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.135816] (loadcells_pkg) StderrLine: {'line': b'   10 |     LoadcellPublisher() : Node("loadcell_publisher"\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[6.135980] (loadcells_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.136144] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711::\x1b[01;32m\x1b[KSimpleHX711\x1b[m\x1b[K(int, int, HX711::Value, HX711::Value, HX711::Rate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.136330] (loadcells_pkg) StderrLine: {'line': b'   36 |     \x1b[01;36m\x1b[KSimpleHX711\x1b[m\x1b[K(\n'}
+[6.136497] (loadcells_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.136659] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/hx711/SimpleHX711.h:36:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 0 provided\n'}
+[6.147670] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_pin_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.148060] (loadcells_pkg) StderrLine: {'line': b'   15 |             hx1_ = HX711::SimpleHX711(\x1b[01;31m\x1b[Kdata_pin_1\x1b[m\x1b[K, clock_pin_1, ref_unit_1, offset_1, HX711::Rate::HZ_10);\n'}
+[6.148232] (loadcells_pkg) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.160727] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclock_pin_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclockid_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.161026] (loadcells_pkg) StderrLine: {'line': b'   15 |             hx1_ = HX711::SimpleHX711(data_pin_1, \x1b[01;31m\x1b[Kclock_pin_1\x1b[m\x1b[K, ref_unit_1, offset_1, HX711::Rate::HZ_10);\n'}
+[6.161202] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.161307] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[Kclockid_t\x1b[m\x1b[K\n'}
+[6.173077] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kref_unit_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.173381] (loadcells_pkg) StderrLine: {'line': b'   15 |             hx1_ = HX711::SimpleHX711(data_pin_1, clock_pin_1, \x1b[01;31m\x1b[Kref_unit_1\x1b[m\x1b[K, offset_1, HX711::Rate::HZ_10);\n'}
+[6.173502] (loadcells_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.183857] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:15:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koffset_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koffsetof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.184132] (loadcells_pkg) StderrLine: {'line': b'   15 |             hx1_ = HX711::SimpleHX711(data_pin_1, clock_pin_1, ref_unit_1, \x1b[01;31m\x1b[Koffset_1\x1b[m\x1b[K, HX711::Rate::HZ_10);\n'}
+[6.184260] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.184368] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Koffsetof\x1b[m\x1b[K\n'}
+[6.195438] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_pin_2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.195686] (loadcells_pkg) StderrLine: {'line': b'   16 |             hx2_ = HX711::SimpleHX711(\x1b[01;31m\x1b[Kdata_pin_2\x1b[m\x1b[K, clock_pin_2, ref_unit_2, offset_2, HX711::Rate::HZ_10);\n'}
+[6.195809] (loadcells_pkg) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.207608] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclock_pin_2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclockid_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.207885] (loadcells_pkg) StderrLine: {'line': b'   16 |             hx2_ = HX711::SimpleHX711(data_pin_2, \x1b[01;31m\x1b[Kclock_pin_2\x1b[m\x1b[K, ref_unit_2, offset_2, HX711::Rate::HZ_10);\n'}
+[6.208014] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.208131] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[Kclockid_t\x1b[m\x1b[K\n'}
+[6.219609] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kref_unit_2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.219888] (loadcells_pkg) StderrLine: {'line': b'   16 |             hx2_ = HX711::SimpleHX711(data_pin_2, clock_pin_2, \x1b[01;31m\x1b[Kref_unit_2\x1b[m\x1b[K, offset_2, HX711::Rate::HZ_10);\n'}
+[6.220032] (loadcells_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.222637] (-) TimerEvent: {}
+[6.230534] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:16:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koffset_2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koffsetof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.232366] (loadcells_pkg) StderrLine: {'line': b'   16 |             hx2_ = HX711::SimpleHX711(data_pin_2, clock_pin_2, ref_unit_2, \x1b[01;31m\x1b[Koffset_2\x1b[m\x1b[K, HX711::Rate::HZ_10);\n'}
+[6.232499] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.232624] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Koffsetof\x1b[m\x1b[K\n'}
+[6.243094] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_pin_3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.243407] (loadcells_pkg) StderrLine: {'line': b'   17 |             hx3_ = HX711::SimpleHX711(\x1b[01;31m\x1b[Kdata_pin_3\x1b[m\x1b[K, clock_pin_3, ref_unit_3, offset_3, HX711::Rate::HZ_10);\n'}
+[6.243544] (loadcells_pkg) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.255699] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclock_pin_3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclockid_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.256001] (loadcells_pkg) StderrLine: {'line': b'   17 |             hx3_ = HX711::SimpleHX711(data_pin_3, \x1b[01;31m\x1b[Kclock_pin_3\x1b[m\x1b[K, ref_unit_3, offset_3, HX711::Rate::HZ_10);\n'}
+[6.256131] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.256262] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[Kclockid_t\x1b[m\x1b[K\n'}
+[6.268466] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kref_unit_3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.268737] (loadcells_pkg) StderrLine: {'line': b'   17 |             hx3_ = HX711::SimpleHX711(data_pin_3, clock_pin_3, \x1b[01;31m\x1b[Kref_unit_3\x1b[m\x1b[K, offset_3, HX711::Rate::HZ_10);\n'}
+[6.268864] (loadcells_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.279589] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:17:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koffset_3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koffsetof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.279867] (loadcells_pkg) StderrLine: {'line': b'   17 |             hx3_ = HX711::SimpleHX711(data_pin_3, clock_pin_3, ref_unit_3, \x1b[01;31m\x1b[Koffset_3\x1b[m\x1b[K, HX711::Rate::HZ_10);\n'}
+[6.279997] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.280086] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Koffsetof\x1b[m\x1b[K\n'}
+[6.292012] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_pin_4\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.292297] (loadcells_pkg) StderrLine: {'line': b'   18 |             hx4_ = HX711::SimpleHX711(\x1b[01;31m\x1b[Kdata_pin_4\x1b[m\x1b[K, clock_pin_4, ref_unit_4, offset_4, HX711::Rate::HZ_10);\n'}
+[6.292420] (loadcells_pkg) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.304319] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclock_pin_4\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclockid_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.304600] (loadcells_pkg) StderrLine: {'line': b'   18 |             hx4_ = HX711::SimpleHX711(data_pin_4, \x1b[01;31m\x1b[Kclock_pin_4\x1b[m\x1b[K, ref_unit_4, offset_4, HX711::Rate::HZ_10);\n'}
+[6.304737] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.304839] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[Kclockid_t\x1b[m\x1b[K\n'}
+[6.316556] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kref_unit_4\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.316840] (loadcells_pkg) StderrLine: {'line': b'   18 |             hx4_ = HX711::SimpleHX711(data_pin_4, clock_pin_4, \x1b[01;31m\x1b[Kref_unit_4\x1b[m\x1b[K, offset_4, HX711::Rate::HZ_10);\n'}
+[6.316947] (loadcells_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.322847] (-) TimerEvent: {}
+[6.327649] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:18:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koffset_4\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koffsetof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.327932] (loadcells_pkg) StderrLine: {'line': b'   18 |             hx4_ = HX711::SimpleHX711(data_pin_4, clock_pin_4, ref_unit_4, \x1b[01;31m\x1b[Koffset_4\x1b[m\x1b[K, HX711::Rate::HZ_10);\n'}
+[6.328044] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.328156] (loadcells_pkg) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Koffsetof\x1b[m\x1b[K\n'}
+[6.345923] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:31:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_rate_ms\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.346256] (loadcells_pkg) StderrLine: {'line': b'   31 |                         std::chrono::milliseconds(\x1b[01;31m\x1b[Kpublish_rate_ms\x1b[m\x1b[K),\n'}
+[6.346373] (loadcells_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.352635] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual LoadcellPublisher::\x1b[01;32m\x1b[K~LoadcellPublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.352892] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.353139] (loadcells_pkg) StderrLine: {'line': b'   36 |         hx1_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdisconnect();\n'}
+[6.353364] (loadcells_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.353451] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:37:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.353543] (loadcells_pkg) StderrLine: {'line': b'   37 |         hx2_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdisconnect();\n'}
+[6.353628] (loadcells_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.353711] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:38:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.353812] (loadcells_pkg) StderrLine: {'line': b'   38 |         hx3_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdisconnect();\n'}
+[6.353901] (loadcells_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.353986] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:39:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.354072] (loadcells_pkg) StderrLine: {'line': b'   39 |         hx4_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdisconnect();\n'}
+[6.354153] (loadcells_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.354253] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LoadcellPublisher::\x1b[01;32m\x1b[KtimerCallback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.354335] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:51:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.354416] (loadcells_pkg) StderrLine: {'line': b'   51 |                         double w1 = hx1_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kweight(3);    //left-outer\n'}
+[6.354498] (loadcells_pkg) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.354582] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:52:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.354678] (loadcells_pkg) StderrLine: {'line': b'   52 |             double w2 = hx2_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kweight(3);    //left-inner\n'}
+[6.354770] (loadcells_pkg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.354858] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:53:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.354947] (loadcells_pkg) StderrLine: {'line': b'   53 |                         double w3 = hx3_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kweight(3);    //right-inner\n'}
+[6.355032] (loadcells_pkg) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.355117] (loadcells_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giulia0312/easywalk/src/loadcells_pkg/src/loadcell_publisher1.cpp:54:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[KHX711::SimpleHX711\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.355224] (loadcells_pkg) StderrLine: {'line': b'   54 |                         double w4 = hx4_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kweight(3);    //right-outer\n'}
+[6.355312] (loadcells_pkg) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.423063] (-) TimerEvent: {}
+[6.523427] (-) TimerEvent: {}
+[6.623799] (-) TimerEvent: {}
+[6.724237] (-) TimerEvent: {}
+[6.824575] (-) TimerEvent: {}
+[6.924999] (-) TimerEvent: {}
+[7.025374] (-) TimerEvent: {}
+[7.125746] (-) TimerEvent: {}
+[7.226215] (-) TimerEvent: {}
+[7.326691] (-) TimerEvent: {}
+[7.427150] (-) TimerEvent: {}
+[7.527613] (-) TimerEvent: {}
+[7.628063] (-) TimerEvent: {}
+[7.728443] (-) TimerEvent: {}
+[7.737353] (loadcells_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/loadcell_publisher1.dir/build.make:76: CMakeFiles/loadcell_publisher1.dir/src/loadcell_publisher1.cpp.o] Error 1\n'}
+[7.737797] (loadcells_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:678: CMakeFiles/loadcell_publisher1.dir/all] Error 2\n'}
+[7.738141] (loadcells_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.741917] (loadcells_pkg) CommandEnded: {'returncode': 2}
+[7.767174] (loadcells_pkg) JobEnded: {'identifier': 'loadcells_pkg', 'rc': 2}
+[7.778033] (-) EventReactorShutdown: {}
